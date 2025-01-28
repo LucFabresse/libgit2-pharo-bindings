@@ -8,5 +8,7 @@ fetchOptionsStructureClass
 		ifTrue: [ ^ LGitFetchOptionsV100 ].
 	(self ffiLibrary uniqueInstance isVersionLessThan: #(1 4))
 		ifTrue: [ ^ LGitFetchOptionsV120 ].
+	(self ffiLibrary uniqueInstance isVersionLessThan: #(1 9))
+		ifTrue: [ ^ LGitFetchOptionsV140 ].
 		
-	^ LGitFetchOptionsV140
+	^ LGitFetchOptionsV190

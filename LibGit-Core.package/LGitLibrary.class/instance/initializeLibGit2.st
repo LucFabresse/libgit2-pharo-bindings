@@ -5,6 +5,7 @@ initializeLibGit2
 	
 	[ 
 		self libgit2_init.
+		self initializeStructures.
 		self recordInitializationSuccess ]
 	on: Error
 	do: [ :e | 
