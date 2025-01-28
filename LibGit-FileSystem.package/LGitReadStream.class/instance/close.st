@@ -1,4 +1,4 @@
-initialize-release
+initialization
 close
 	
 	"Do nothing, we should not free git's blob"
