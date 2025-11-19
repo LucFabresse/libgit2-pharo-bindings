@@ -1,4 +1,4 @@
-fields description
+field definition
 fieldsDesc
 	"self rebuildFieldAccessors"
 
@@ -8,7 +8,7 @@ fieldsDesc
 		"
 		 * Callbacks to use for this fetch operation
 		 "
-		LGitRemoteCallbacks callbacks;
+		LGitRemoteCallbacksV190 callbacks;
 
 		"
 		 * Whether to perform a prune after the fetch
